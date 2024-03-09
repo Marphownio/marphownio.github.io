@@ -31,6 +31,7 @@ import my_profile from './components/profile.vue'
   right: 0;
   margin: 0;
   padding: 0;
+  background-color: #021c36;
 }
 .flex_box{
   width: 100%;
@@ -40,7 +41,11 @@ import my_profile from './components/profile.vue'
   justify-content: space-between;
 }
 .left{
-  width:40%;
+  width:38%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   /* background-color: aqua; */
 
 }
