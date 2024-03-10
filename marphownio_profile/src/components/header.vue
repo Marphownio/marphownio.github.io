@@ -5,21 +5,9 @@
       mode="horizontal"
       @select="handleSelect"
     >
-      <el-menu-item index="1">Processing Center</el-menu-item>
-      <el-sub-menu index="2">
-        <template #title>Workspace</template>
-        <el-menu-item index="2-1">item one</el-menu-item>
-        <el-menu-item index="2-2">item two</el-menu-item>
-        <el-menu-item index="2-3">item three</el-menu-item>
-        <el-sub-menu index="2-4">
-          <template #title>item four</template>
-          <el-menu-item index="2-4-1">item one</el-menu-item>
-          <el-menu-item index="2-4-2">item two</el-menu-item>
-          <el-menu-item index="2-4-3">item three</el-menu-item>
-        </el-sub-menu>
-      </el-sub-menu>
-      <el-menu-item index="3" disabled>Info</el-menu-item>
-      <el-menu-item index="4">Orders</el-menu-item>
+      <el-menu-item index="1">About Me</el-menu-item>
+      <el-menu-item index="2">Publications</el-menu-item>
+      <el-menu-item index="3">Porjects</el-menu-item>
     </el-menu>
 </template>
   
@@ -32,4 +20,31 @@
     console.log(key, keyPath)
   }
 </script>
+<style>
+.el-menu-demo{
+  background-color: #000000;
+  border:0!important;
+}
+.el-menu-demo .el-menu-item.is-active{
+  border-bottom-color: #c3cbd3 !important;
+  font-weight: 800 !important;
+  font-size: 120%;
+  color: #c3cbd3 !important;
+}
+.el-menu-demo .el-menu-item {
+  background-color: #000000 !important;
+  font-size: 16px;
+  color: #c3cbd3 !important;
+}
+.el-menu-demo .el-menu-item:hover{
+    color: #d6e4f1 !important;
+    text-decoration: none;
+    background-color: #494444 !important;
+}
+.el-menu-demo el-menu--horizontal > .el-menu-item {
+  border-bottom: none!important;
+  text-decoration: none!important;
+}
+
+</style>
   

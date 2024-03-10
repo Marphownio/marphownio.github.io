@@ -1,6 +1,7 @@
 <script setup>
 import my_header from './components/header.vue'
 import my_profile from './components/profile.vue'
+import my_biography from './components/biography.vue'
 </script>
 
 <template>
@@ -11,7 +12,7 @@ import my_profile from './components/profile.vue'
         <my_profile></my_profile>
       </div>
       <div class="right">
-        
+        <my_biography></my_biography>
       </div>
       
     </div>
@@ -46,7 +47,15 @@ import my_profile from './components/profile.vue'
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: aqua; */
+
+}
+
+.right{
+  width:62%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 </style>

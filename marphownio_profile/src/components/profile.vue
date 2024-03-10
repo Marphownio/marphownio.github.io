@@ -23,6 +23,7 @@
 
 <style scoped>
 #profile{
+    width: 100%;
     margin-bottom: 80px;
     /* background-color: yellowgreen; */
     color: #c3cbd3;
