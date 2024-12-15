@@ -7,7 +7,7 @@
     >
       <el-menu-item index="1">About Me</el-menu-item>
       <el-menu-item index="2">Publications</el-menu-item>
-      <el-menu-item index="3">Porjects</el-menu-item>
+      <el-menu-item index="3">Projects</el-menu-item>
     </el-menu>
 </template>
   

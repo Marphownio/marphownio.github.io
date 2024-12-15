@@ -6,7 +6,7 @@ import my_biography from './components/biography.vue'
 
 <template>
   <div id="most_out">
-    <my_header></my_header>
+    <!-- <my_header></my_header> -->
     <div class="flex_box">
       <div class="left">
         <my_profile></my_profile>
@@ -45,16 +45,21 @@ import my_biography from './components/biography.vue'
   width:38%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding-top: 8%;
+  /* justify-content: center; */
   align-items: center;
-
+  /* background-color: #d0d3d6; */
 }
 
 .right{
   width:62%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  padding-top: 10%;
+  /* background-color: #d0d3d6; */
+  /* justify-content: center; */
   align-items: center;
 
 }

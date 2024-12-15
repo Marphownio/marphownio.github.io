@@ -4,7 +4,7 @@
             <img id="my_avatar" src="../assets/1.jpg" />
         </div>
         <div id="name">Wuyuao Mai</div>
-        <div class="lab">Undergraduate Student of<br></div>
+        <div class="lab">Master Student of<br></div>
         <div class="lab"><a href="https://security.fudan.edu.cn/">System Software and Security Group</a></div>
         <div id="school"><a href="https://cs.fudan.edu.cn/">School of Computer Science, </a><a href="https://www.fudan.edu.cn/">Fudan University</a></div>
         <div id="refs">
@@ -39,7 +39,7 @@
     margin-bottom: 5px;
 }
 #name{
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 400;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -57,7 +57,7 @@ a{
     width: 100%;
 }
 #refs{
-    width: 28%;
+    width: 25%;
     /* margin-top: 10px; */
     display: flex;
     flex-direction: row;
@@ -70,8 +70,8 @@ a{
     margin-bottom: 5px;
 }
 #my_avatar{
-    width:260px;
-	height:260px;
+    width:230px;
+	height:230px;
     /* margin: 5px 5px 5px 0; */
     position: relative;
     border-radius:50%;

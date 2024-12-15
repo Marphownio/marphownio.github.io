@@ -1,6 +1,7 @@
 <template>
     <div class="list_detail">
         <img v-if="props.icon_type=='1'" class="list_head" src="../assets/list1.png">
+        <img v-else-if="props.icon_type=='3'" class="list_head" src="../assets/3.png">
         <img v-else-if="props.icon_type=='2'" class="list_head" src="../assets/list2.png">
         <p v-else>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
