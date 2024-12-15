@@ -57,7 +57,7 @@ import my_biography from './components/biography.vue'
   flex-direction: column;
   overflow-y:scroll;
   overflow-x:hidden;
-  padding-top: 10%;
+  padding-top: 5%;
   /* background-color: #d0d3d6; */
   /* justify-content: center; */
   align-items: center;

@@ -57,7 +57,7 @@ a{
     width: 100%;
 }
 #refs{
-    width: 25%;
+    width: 155px;
     /* margin-top: 10px; */
     display: flex;
     flex-direction: row;

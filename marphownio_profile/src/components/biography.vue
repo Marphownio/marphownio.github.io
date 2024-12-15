@@ -59,6 +59,7 @@ import list_item from './list_item.vue'
     font-weight: 600;
     font-size: 45px;
     margin-bottom: 25px;
+    margin-top: 75px;
 }
 .title2{
     font-weight: 600;
