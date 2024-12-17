@@ -7,7 +7,7 @@ import list_item from './list_item.vue'
         <div class="one_col">
             <div class="title1">Biography</div>
             <div class="content">
-                I am a first-year master's student majoring in Cyberspace Security at <a href="https://security.fudan.edu.cn/">System Software and Security Group</a> of Fudan University in Shanghai, China. 
+                I am a master student majoring in Cyberspace Security at <a href="https://security.fudan.edu.cn/">System Software and Security Group</a> of Fudan University in Shanghai, China. 
             </div>
         </div>
         <div class="two_col">
@@ -16,7 +16,7 @@ import list_item from './list_item.vue'
                 <list_item class="list_item" msg="Cyberspace Security" icon_type="2"/>
                 <list_item class="list_item" msg="2024/09 ~ Present, Fudan University" icon_type="0"/>
                 <list_item class="list_item" msg="Software Engineering" icon_type="2"/>
-                <list_item class="list_item" msg="2023/09 ~ 2024/06, Fudan University" icon_type="0"/>
+                <list_item class="list_item" msg="2020/09 ~ 2024/06, Fudan University" icon_type="0"/>
                 <!-- <list_item class="list_item" msg="Aeronautics and Astronautics" icon_type="2"/>
                 <list_item class="list_item" msg="2323.09.01 ~ 2321.06.30, Fudan University" icon_type="0"/> -->
             </div>
