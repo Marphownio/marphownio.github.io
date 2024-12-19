@@ -32,7 +32,8 @@ import my_biography from './components/biography.vue'
   right: 0;
   margin: 0;
   padding: 0;
-  background-color: #021c36;
+  /* background-color: #021c36; */
+  background-color: #213555;
 }
 .flex_box{
   width: 100%;

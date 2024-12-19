@@ -4,9 +4,9 @@
             <img id="my_avatar" src="../assets/1.jpg" />
         </div>
         <div id="name">Wuyuao Mai</div>
-        <div class="lab">Master Student of<br></div>
-        <div class="lab"><a href="https://security.fudan.edu.cn/">System Software and Security Group</a></div>
-        <div id="school"><a href="https://cs.fudan.edu.cn/">School of Computer Science, </a><a href="https://www.fudan.edu.cn/">Fudan University</a></div>
+        <div class="lab">Master Student<br></div>
+        <div id="school"><a href="https://www.fudan.edu.cn/">Fudan University</a></div>
+        <div id="email">maiwuyuao20 [at] fudan.edu.cn</div>
         <div id="refs">
             <a href="mailto:maiwuyuao20@fudan.edu.cn"><img class="ref" src="../assets/mail.png"></a>
             <a href="https://scholar.google.com/"><img class="ref" src="../assets/google.png"></a>
@@ -26,12 +26,12 @@
     width: 100%;
     margin-bottom: 80px;
     /* background-color: yellowgreen; */
-    color: #c3cbd3;
+    color: #D8C4B6;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items:center;
-    font-family: Times New Roman;
+    font-family: Georgia;
     
 }
 #email{
@@ -40,8 +40,16 @@
 }
 #name{
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 800;
     margin-top: 20px;
+    margin-bottom: 20px;
+    color: #F5EFE7;
+}
+#email{
+    font-size: 15px;
+    /* font-weight: 800; */
+    margin-top: 5px;
+    opacity: 0.75;
     margin-bottom: 20px;
 }
 #school{
@@ -51,10 +59,11 @@
 a{
     text-decoration:none;
     /* color: #37474f; */
-    color: #c3cbd3;;
+    color: #D8C4B6;
 }
 .ref{
-    width: 100%;
+    width: 70%;
+    margin-left: 11%;
 }
 #refs{
     width: 155px;
@@ -67,7 +76,7 @@ a{
 }
 .lab{
     font-size: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 #my_avatar{
     width:230px;
