@@ -13,6 +13,13 @@
             <a href="https://github.com/Marphownio"><img class="ref" src="../assets/github.png"></a>
             <a href="https://music.163.com/#/artist?id=12554858"><img class="ref" src="../assets/wyy.png"></a>
         </div>
+        <!-- <div id="buttons">
+            <span>Academy</span>
+            <el-divider direction="vertical" />
+            <span>Music</span>
+            <el-divider direction="vertical" border-style="dashed" />
+            <span>photography</span>
+        </div> -->
     </div>
     
 </template>
