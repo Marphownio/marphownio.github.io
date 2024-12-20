@@ -83,7 +83,7 @@ const onClickOutside = () => {
 }
 
 .title{
-    font-weight: 800;
+    font-weight: 600;
 }
 .subitemsa {
   text-decoration: none; /* 去掉默认的下划线 */
@@ -99,9 +99,6 @@ const onClickOutside = () => {
 a{
     text-decoration:none;
     color: inherit; 
-}
-.date{
-    
 }
 .authors{
     /* opacity: 0.8; */

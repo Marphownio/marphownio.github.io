@@ -40,7 +40,7 @@
     
 }
 #name{
-    font-size: 0.28rem;
+    font-size: 0.2rem;
     font-weight: 800;
     margin-top: 0.2rem;
     margin-bottom: 0.15rem;
@@ -78,8 +78,8 @@ a{
     margin-bottom: 0.05rem;
 }
 #my_avatar{
-    width:1.5rem;
-	height:1.5rem;
+    width:1.2rem;
+	height:1.2rem;
     position: relative;
     border-radius:50%;
 }

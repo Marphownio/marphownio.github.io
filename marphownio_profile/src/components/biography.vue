@@ -68,21 +68,21 @@ import essay from './essay.vue'
 }
 .title1{
     font-weight: 600;
-    font-size: 0.3rem;
+    font-size: 0.25rem;
     margin-bottom: 0.15rem;
     margin-top: 0.3rem;
     color: #F5EFE7;
 }
 .title2{
     font-weight: 600;
-    font-size: 0.23rem;
+    font-size: 0.2rem;
     margin-bottom: 0.15rem;
     margin-top: 0.05rem;
     color: #F5EFE7;
 }
 .content{
     width: 90%;
-    font-size: 0.15rem;
+    font-size: 0.13rem;
     line-height:0.2rem;
 }
 .two_col{
@@ -97,7 +97,7 @@ import essay from './essay.vue'
 }
 .list_item{
     font-family: Georgia;
-    font-size: 0.15rem;
+    font-size: 0.13rem;
     line-height: 0.2rem;
     height: 0.2rem;
 }
