@@ -1,5 +1,6 @@
 <script setup>
 import list_item from './list_item.vue'
+import essay from './essay.vue'
 
 </script>
 <template>
@@ -42,9 +43,14 @@ import list_item from './list_item.vue'
         <div class="one_col">
             <div class="title1">Publications</div>
             <div class="content">
-                <router-link :to="{ path: '/pdfs/icse25_repseo.pdf' }" target="_blank">
-                查看 PDF
-                </router-link>
+                <essay
+                    title="Exposing the Hidden Layer: Software Repositories in the Service of SEO Manipulation" 
+                    year="2024"
+                    authors="Mengying Wu*, Geng Hong*, <b class='tuchu'>Wuyuao Mai</b>, Xinyi Wu, Lei Zhang, Yingyuan Pu, Huajun Chai, Lingyun Ying, Haixin Duan, and Min Yang"
+                    conference="the 47th International Conference on Software Engineering (IEEE/ACM ICSE'25, CCF-A)"
+                    pdf_url="/pdfs/icse25_repseo.pdf"
+                    code_url="https://github.com/Marphownio/RepSEO_Classifier"
+                    BibTex="coming soon"/>
             </div>
         </div>
     </div>
@@ -55,48 +61,45 @@ import list_item from './list_item.vue'
 
 <style scoped>
 #Biography{
-    /* margin-top: -130px; */
     width: 100%;
     color: #D8C4B6;
-    padding: 5px;
+    /* padding: 0.1em; */
     font-family: Georgia;
 }
 .title1{
     font-weight: 600;
-    font-size: 45px;
-    margin-bottom: 25px;
-    margin-top: 75px;
+    font-size: 0.3rem;
+    margin-bottom: 0.15rem;
+    margin-top: 0.3rem;
     color: #F5EFE7;
 }
 .title2{
     font-weight: 600;
-    font-size: 30px;
-    margin-bottom: 15px;
+    font-size: 0.23rem;
+    margin-bottom: 0.15rem;
+    margin-top: 0.05rem;
     color: #F5EFE7;
 }
 .content{
     width: 90%;
-    font-size: 20px;
-    line-height:30px;
-    margin-bottom: 10px;
+    font-size: 0.15rem;
+    line-height:0.2rem;
 }
 .two_col{
-    /* margin-top: 23px; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items:flex-start;
 }
 .one_col{
-    /* margin-top: 23px; */
     width: 100%;
-    margin-bottom: 23px;
+    margin-bottom: 0.2rem;
 }
 .list_item{
     font-family: Georgia;
-    font-size: 20px;
-    line-height: 30px;
-    height: 30px;
+    font-size: 0.15rem;
+    line-height: 0.2rem;
+    height: 0.2rem;
 }
 
 a{

@@ -31,8 +31,6 @@
 <style scoped>
 #profile{
     width: 100%;
-    margin-bottom: 80px;
-    /* background-color: yellowgreen; */
     color: #D8C4B6;
     display: flex;
     flex-direction: column;
@@ -41,27 +39,22 @@
     font-family: Georgia;
     
 }
-#email{
-    font-size: 15px;
-    margin-bottom: 5px;
-}
 #name{
-    font-size: 35px;
+    font-size: 0.28rem;
     font-weight: 800;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.15rem;
     color: #F5EFE7;
 }
 #email{
-    font-size: 15px;
+    font-size: 0.12rem;
     /* font-weight: 800; */
-    margin-top: 5px;
     opacity: 0.75;
-    margin-bottom: 20px;
+    margin-bottom: 0.1rem;
 }
 #school{
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 0.15rem;
+    margin-bottom: 0.1rem;
 }
 a{
     text-decoration:none;
@@ -70,11 +63,10 @@ a{
 }
 .ref{
     width: 70%;
-    margin-left: 11%;
+    /* margin-left: 11%; */
 }
 #refs{
-    width: 155px;
-    /* margin-top: 10px; */
+    width: 1.3rem;
     display: flex;
     flex-direction: row;
     filter: invert(50%);
@@ -82,13 +74,12 @@ a{
     align-items: center; 
 }
 .lab{
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 0.15rem;
+    margin-bottom: 0.05rem;
 }
 #my_avatar{
-    width:230px;
-	height:230px;
-    /* margin: 5px 5px 5px 0; */
+    width:1.5rem;
+	height:1.5rem;
     position: relative;
     border-radius:50%;
 }
