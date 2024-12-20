@@ -42,7 +42,9 @@ import list_item from './list_item.vue'
         <div class="one_col">
             <div class="title1">Publications</div>
             <div class="content">
-                Coming soon!    
+                <router-link :to="{ path: '/pdfs/icse25_repseo.pdf' }" target="_blank">
+                查看 PDF
+                </router-link>
             </div>
         </div>
     </div>
