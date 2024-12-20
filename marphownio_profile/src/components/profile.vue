@@ -30,30 +30,29 @@
 
 <style scoped>
 #profile{
-    width: 100%;
+    width: 70%;
     color: #D8C4B6;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items:center;
     font-family: Georgia;
-    
 }
 #name{
-    font-size: 0.2rem;
+    font-size: 0.18rem;
     font-weight: 800;
     margin-top: 0.2rem;
     margin-bottom: 0.15rem;
     color: #F5EFE7;
 }
 #email{
-    font-size: 0.12rem;
+    font-size: 0.095rem;
     /* font-weight: 800; */
     opacity: 0.75;
     margin-bottom: 0.1rem;
 }
 #school{
-    font-size: 0.15rem;
+    font-size: 0.12rem;
     margin-bottom: 0.1rem;
 }
 a{
@@ -62,11 +61,12 @@ a{
     color: #D8C4B6;
 }
 .ref{
-    width: 70%;
+    width: 100%;
+    text-align: center;
     /* margin-left: 11%; */
 }
 #refs{
-    width: 1.3rem;
+    width: 0.7rem;
     display: flex;
     flex-direction: row;
     filter: invert(50%);
@@ -74,12 +74,12 @@ a{
     align-items: center; 
 }
 .lab{
-    font-size: 0.15rem;
+    font-size: 0.12rem;
     margin-bottom: 0.05rem;
 }
 #my_avatar{
-    width:1.2rem;
-	height:1.2rem;
+    width:1.1rem;
+	height:1.1rem;
     position: relative;
     border-radius:50%;
 }

@@ -61,29 +61,28 @@ import essay from './essay.vue'
 
 <style scoped>
 #Biography{
-    width: 100%;
+    width: 85%;
     color: #D8C4B6;
-    /* padding: 0.1em; */
     font-family: Georgia;
 }
 .title1{
     font-weight: 600;
-    font-size: 0.25rem;
-    margin-bottom: 0.15rem;
-    margin-top: 0.3rem;
+    font-size: 0.2rem;
+    margin-bottom: 0.1rem;
+    margin-top: 0.2rem;
     color: #F5EFE7;
 }
 .title2{
     font-weight: 600;
-    font-size: 0.2rem;
-    margin-bottom: 0.15rem;
-    margin-top: 0.05rem;
+    font-size: 0.15rem;
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
     color: #F5EFE7;
 }
 .content{
     width: 90%;
-    font-size: 0.13rem;
-    line-height:0.2rem;
+    font-size: 0.11rem;
+    line-height:0.18rem;
 }
 .two_col{
     display: flex;
@@ -93,18 +92,16 @@ import essay from './essay.vue'
 }
 .one_col{
     width: 100%;
-    margin-bottom: 0.2rem;
 }
 .list_item{
     font-family: Georgia;
-    font-size: 0.13rem;
-    line-height: 0.2rem;
-    height: 0.2rem;
+    font-size: 0.11rem;
+    line-height: 0.17rem;
+    height: 0.17rem;
 }
 
 a{
     text-decoration:none;
-    /* color: #37474f; */
     color: #D8C4B6;
 }
 </style>

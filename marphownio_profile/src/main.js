@@ -6,3 +6,17 @@ import 'amfe-flexible'
 import router from './router'
 
 createApp(App).use(router).use(ElementPlus).mount('#app')
+
+const setHtmlFontSize = () => {
+    const htmlDom = document.getElementsByTagName('html')[0];
+    let htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+    if (htmlWidth >= 1200) {
+      htmlWidth = 1200;
+    }
+    if (htmlWidth <= 1000) {
+      htmlWidth = 1000;
+    }
+    htmlDom.style.fontSize = `${htmlWidth / 8}px`;
+  };
+  window.onresize = setHtmlFontSize;
+  setHtmlFontSize();

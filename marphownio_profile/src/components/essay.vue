@@ -78,11 +78,13 @@ const onClickOutside = () => {
     align-items: start;
     width: 100%;
 }
-.essay_item div{
+/* .essay_item div{
     margin-bottom: -0.1rem;
-}
+} */
 
 .title{
+    /* padding-left: 1%;
+    border-left: 0.02rem  solid #F5EFE7; */
     font-weight: 600;
 }
 .subitemsa {
@@ -103,23 +105,26 @@ a{
 .authors{
     /* opacity: 0.8; */
     font-size: 80%;
+    margin-top: -0.07rem;
 }
 .conference{
     opacity: 0.7;
     font-size: 80%;
     font-style: italic;
+    margin-top: -0.07rem;
 }
 .list_head{
     filter: invert(50%);
     height: 80%;
 }
 .items{
+    margin-top: 0.05rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: start;
     width: 100%;
-    margin-top: 0.15rem;
+    margin-bottom: 0.05rem;
 }
 .subitems{
     width: 0.4rem;
@@ -131,8 +136,8 @@ a{
     text-align:center;
     opacity: 0.7;
     background-color: transparent;
-    font-size: 60%;     /* 字体大小 */
-    font-weight: 600;
+    font-size: 80%;     /* 字体大小 */
+    /* font-weight: 600; */
     color: #D8C4B6;;
     border: 0.01rem solid #F5EFE7;;  /* 设置四周边框，边框宽度为2px，颜色为蓝色 */
     cursor: pointer;     /* 鼠标指针变为点击样式 */

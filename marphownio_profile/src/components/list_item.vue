@@ -8,7 +8,7 @@
 
 
         <div v-if="props.icon_type=='0'" class="date">&nbsp;&nbsp;{{ props.msg }}</div>
-        <div v-else>&nbsp;&nbsp;{{ props.msg }}</div>
+        <div v-else class="text">&nbsp;&nbsp;{{ props.msg }}</div>
     </div>
 </template>
 
@@ -26,9 +26,13 @@ const props = defineProps({
     align-items: center;
     width: 100%;
 }
+
 .date{
     opacity: 0.7;
     font-size: 80%;
+    margin-top: -0.08rem;
+    line-height: 0.17rem;
+    height: 0.17rem;
 }
 .list_head{
     filter: invert(50%);
