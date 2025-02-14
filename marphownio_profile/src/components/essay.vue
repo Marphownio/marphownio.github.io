@@ -18,28 +18,18 @@
             <button class="subitems">
                 <a :href="props.code_url">Code</a>
             </button>
-            <button class="subitems">
+            <button class="subitems" @click="showModal = !showModal">
                 BibTex
             </button>
-            <!-- <el-button class="subitems">Default</el-button>
-            <el-button class="subitems">Default</el-button>
-            <el-button class="subitems">Default</el-button> -->
         </div>
-        <!-- <div>
-            {{ props.authors }}
+        
+        <div v-if="showModal" class="modal">
+            <div class="modal-content">
+                <div class="bibtitle">Citation Code</div>
+                <p v-html="props.BibTex" class="bibcode"></p>
+            </div>
         </div>
-        <div>
-            {{ props.authors }}
-        </div> -->
-        <!-- <img v-if="props.icon_type=='1'" class="list_head" src="../assets/list1.png">
-        <img v-else-if="props.icon_type=='3'" class="list_head" src="../assets/3.png">
-        <img v-else-if="props.icon_type=='2'" class="list_head" src="../assets/list2.png">
-        <img v-else-if="props.icon_type=='4'" class="list_head" src="../assets/4.png">
-        <p v-else>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-
-
-        <div v-if="props.icon_type=='0'" class="date">&nbsp;&nbsp;{{ props.msg }}</div>
-        <div v-else>&nbsp;&nbsp;{{ props.msg }}</div> -->
+    
         
         
     </div>
@@ -55,6 +45,7 @@ const props = defineProps({
     code_url:String,
     BibTex:String,
 })
+const showModal = ref(false);
 
 import { ref, unref } from 'vue'
 import { ClickOutside as vClickOutside } from 'element-plus'
@@ -77,10 +68,27 @@ const onClickOutside = () => {
     flex-direction: column;
     align-items: start;
     width: 100%;
+    margin-bottom: 0.13rem;
 }
-/* .essay_item div{
-    margin-bottom: -0.1rem;
-} */
+.modal{
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 90%;
+}
+.modal-content{
+    padding: 0.5%;
+    border: 0.01rem solid #F5EFE7;
+    background-color: #25314785;;
+}
+.bibtitle{
+    font-weight: 800;
+    line-height: 0.12rem;
+}
+.bibcode{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.09rem;
+    line-height: 0.12rem;
+}
 
 .title{
     /* padding-left: 1%;

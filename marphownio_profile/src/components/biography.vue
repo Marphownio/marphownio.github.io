@@ -31,10 +31,13 @@ import essay from './essay.vue'
         <div class="one_col">
             <div class="title2">News</div>
             <div class="content">
-                <list_item class="list_item" msg="Start master's studies." icon_type="4"/>
-                <list_item class="list_item" msg="2024/09, Shanghai, China" icon_type="0"/>
+                <!-- <list_item class="list_item" msg="Start master's studies." icon_type="4"/>
+                <list_item class="list_item" msg="2024/09, Shanghai, China" icon_type="0"/>-->
+                
+                <list_item class="list_item" msg="Honored to find our paper has been accepted as an oral presentation at WWW'25!" icon_type="4"/>
+                <list_item class="list_item" msg="2025/01, Shanghai, China" icon_type="0"/>
                 <list_item class="list_item" msg="Graduated and obtained Bachelor Degree of Engineering." icon_type="4"/>
-                <list_item class="list_item" msg="2024/06, Shanghai, China" icon_type="0"/>
+                <list_item class="list_item" msg="2024/06, Shanghai, China" icon_type="0"/> 
                 <list_item class="list_item" msg="Won the Grand Prize in the 18th 'Challenge Cup' National Competition." icon_type="4"/>
                 <list_item class="list_item" msg="2023/11, Guiyang, China" icon_type="0"/>
             </div>
@@ -44,13 +47,37 @@ import essay from './essay.vue'
             <div class="title1">Publications</div>
             <div class="content">
                 <essay
+                    title="You Can't Eat Your Cake and Have It Too: The Performance Degradation of LLMs with Jailbreak Defense" 
+                    year="2025"
+                    authors="<b class='tuchu'>Wuyuao Mai*</b>, Geng Hong*, Pei Chen, Xudong Pan, Baojun Liu, Yuan Zhang, Haixin Duan, Min Yang"
+                    conference="The Web Conference 2025 (WWW'25, CCF-A)"
+                    pdf_url="/pdfs/www25_usebench.pdf"
+                    code_url="https://github.com/Marphownio/USEBench"
+                    BibTex="@inproceedings{mai2025usebench,</br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    author    = {Wuyuao Mai and Geng Hong and Pei Chen and Xudong Pan and Baojun Liu and Yuan Zhang and Haixin Duan and Min Yang},</br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    title     = {You Can’t Eat Your Cake and Have It Too: The Performance Degradation of LLMs with Jailbreak Defense},</br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    booktitle = {Proceedings of the ACM Web Conference 2025 (WWW '25)},</br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    year      = {2025},</br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    month     = {April 28--May 2},</br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    location  = {Sydney, NSW, Australia},</br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    publisher = {ACM},</br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    address   = {New York, NY, USA},</br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    pages     = {12},</br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    doi       = {10.1145/3696410.3714632}</br>
+                    }"/>
+                <essay
                     title="Exposing the Hidden Layer: Software Repositories in the Service of SEO Manipulation" 
                     year="2024"
                     authors="Mengying Wu*, Geng Hong*, <b class='tuchu'>Wuyuao Mai</b>, Xinyi Wu, Lei Zhang, Yingyuan Pu, Huajun Chai, Lingyun Ying, Haixin Duan, and Min Yang"
-                    conference="the 47th International Conference on Software Engineering (IEEE/ACM ICSE'25, CCF-A)"
+                    conference="The 47th International Conference on Software Engineering (IEEE/ACM ICSE'25, CCF-A)"
                     pdf_url="/pdfs/icse25_repseo.pdf"
                     code_url="https://github.com/Marphownio/RepSEO_Classifier"
-                    BibTex="coming soon"/>
+                    BibTex="@inproceedings{wu2025seo,</br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    author    = {Mengying Wu and Geng Hong and Wuyuao Mai and Xinyi Wu and Lei Zhang and Yingyuan Pu and Huajun Chai and Lingyun Ying and Haixin Duan and Min Yang},</br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    title     = {Exposing the Hidden Layer: Software Repositories in the Service of SEO Manipulation},</br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    year      = {2025}, </br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    booktitle = {Proceedings of the IEEE/ACM 47th International Conference on Software Engineering},</br>
+                }"/>
             </div>
         </div>
     </div>
