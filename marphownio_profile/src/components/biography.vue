@@ -29,7 +29,7 @@ import essay from './essay.vue'
             </div>
         </div>
         <div class="one_col">
-            <div class="title2">News</div>
+            <div class="title2">News<router-link to="/news" class="title_ref" >&nbsp;&nbsp; >> More Details</router-link></div>
             <div class="content">
                 <!-- <list_item class="list_item" msg="Start master's studies." icon_type="4"/>
                 <list_item class="list_item" msg="2024/09, Shanghai, China" icon_type="0"/>-->
@@ -119,6 +119,11 @@ import essay from './essay.vue'
 }
 .one_col{
     width: 100%;
+}
+.title_ref{
+    font-weight:500;
+    font-size: 0.1rem;
+    opacity:0.8;
 }
 .list_item{
     font-family: Georgia;

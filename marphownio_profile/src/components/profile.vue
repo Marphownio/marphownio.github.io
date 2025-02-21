@@ -7,6 +7,7 @@
         <div class="lab">Master Student<br></div>
         <div id="school"><a href="https://www.fudan.edu.cn/">Fudan University</a></div>
         <div id="email">maiwuyuao20 [at] fudan.edu.cn</div>
+        <div id="email2">wuyuaom [at] acm.org</div>
         <div id="refs">
             <a href="mailto:maiwuyuao20@fudan.edu.cn"><img class="ref" src="../assets/mail.png"></a>
             <a href="https://scholar.google.com/"><img class="ref" src="../assets/google.png"></a>
@@ -46,6 +47,12 @@
     color: #F5EFE7;
 }
 #email{
+    font-size: 0.095rem;
+    /* font-weight: 800; */
+    opacity: 0.75;
+    /* margin-bottom: 0.1rem; */
+}
+#email2{
     font-size: 0.095rem;
     /* font-weight: 800; */
     opacity: 0.75;
