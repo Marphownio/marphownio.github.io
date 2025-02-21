@@ -27,7 +27,7 @@ const post_details = reactive([
     country: 'China',
     time: '2025/01/19',
     content: 'Had a wonderful Spring Festival in Xichang, China. I saw a little girl running through the fields and couldn’t resist capturing the moment in a photograph.',
-    image_urls: ["https://wx2.sinaimg.cn/mw2000/006uUfRagy1hyslpz3cjoj32pn216kjn.jpg"],
+    image_urls: ["/images/2.jpg"],
   },
   {
     city: 'Bejing',
@@ -35,8 +35,8 @@ const post_details = reactive([
     time: '2024/12/22',
     content: 'Captured the beautiful palace architecture, along with the deep blue sky, in winter Beijing.',
     image_urls: [
-      "https://wx4.sinaimg.cn/mw2000/006uUfRagy1hysn1ker5jj326s26s4qr.jpg",
-      "https://wx4.sinaimg.cn/mw2000/006uUfRagy1hysn1lma02j32dc2dbnpe.jpg",
+      "/images/3.jpg",
+      "/images/4.jpg",
 
       ],
   },
@@ -47,9 +47,9 @@ const post_details = reactive([
     content: 'Graduated from the School of Software at Fudan University with a Bachelor\'s degree in Software Engineering. On my journey ahead, I will continue trying to be an excellent and interesting FDUer.',
     image_urls: [
       // "https://wx1.sinaimg.cn/mw2000/006uUfRagy1hysovz8768j30u00u0goc.jpg",
-      "https://wx2.sinaimg.cn/mw2000/006uUfRagy1hysovznyaej30u00u0goo.jpg",
+      "/images/5.jpg",
       // "https://wx2.sinaimg.cn/mw2000/006uUfRagy1hysow01xq1j30u00u0wgy.jpg",
-      "https://wx2.sinaimg.cn/mw2000/006uUfRagy1hysow0eeekj30u00u0agd.jpg",
+      "/images/6.jpg",
 
       ],
   },
@@ -59,7 +59,7 @@ const post_details = reactive([
     time: '2024/06/09',
     content: 'Immersed in the gentle charm of the Canal Towns in South of the Yangtze.',
     image_urls: [
-      "https://wx2.sinaimg.cn/mw2000/006uUfRagy1hysn19k5fhj34mo2lk4qu.jpg",
+      "/images/7.jpg",
 
       ],
   },
@@ -69,10 +69,10 @@ const post_details = reactive([
     time: '2024/03/29',
     content: 'Admire the cherry blossoms at Xuanwu Lake and feel the arrival of spring.',
     image_urls: [
-      "https://wx1.sinaimg.cn/mw2000/006uUfRagy1hysn1cojb7j32542564qr.jpg",
-      "https://wx2.sinaimg.cn/mw2000/006uUfRagy1hysn1dvgbmj322q22re82.jpg",
-      "https://wx1.sinaimg.cn/mw2000/006uUfRagy1hysn1empjaj31ov1oxnpd.jpg",
-      "https://wx4.sinaimg.cn/mw2000/006uUfRagy1hysn1fkxn2j32dc2dcb2a.jpg",
+      "/images/8.jpg",
+      "/images/9.jpg",
+      "/images/10.jpg",
+      "/images/11.jpg",
 
       ]
   },
@@ -82,7 +82,7 @@ const post_details = reactive([
     time: '2023/10/31',
     content: 'Our team <i>Candlot - Cybercrimial Asset Radar (烛远-互联网犯罪资产侦查雷达)</i>, won the Grand Prize in the 18th "Challenge Cup" National Competition. Happy to welcome this exciting news in early winter at Guizhou University. Besides, <a href="https://mp.weixin.qq.com/s/FjcBkTuTLA9ltKMWOrsiDA">Fudan\'s official WeChat account</a> also reported our award.',
     image_urls: [
-      "https://wx1.sinaimg.cn/mw2000/006uUfRagy1hysobwgzpdj335s2dcnpg.jpg",
+      "/images/12.jpg",
       ],
   },
 

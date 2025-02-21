@@ -1,7 +1,7 @@
 <template>
     <div id="profile">
         <div>
-            <img id="my_avatar" src="https://wx2.sinaimg.cn/mw2000/006uUfRagy1hysow01xq1j30u00u0wgy.jpg" />
+            <img id="my_avatar" src="/images/0.jpg" />
         </div>
         <div id="name">Wuyuao Mai</div>
         <div class="lab">Master Student<br></div>
@@ -10,7 +10,7 @@
         <div id="email2">wuyuaom [at] acm.org</div>
         <div id="refs">
             <a href="mailto:maiwuyuao20@fudan.edu.cn"><img class="ref" src="../assets/mail.png"></a>
-            <a href="https://scholar.google.com/"><img class="ref" src="../assets/google.png"></a>
+            <a href="https://scholar.google.com/citations?user=RHLR0xUAAAAJ"><img class="ref" src="../assets/google.png"></a>
             <a href="https://github.com/Marphownio"><img class="ref" src="../assets/github.png"></a>
             <a href="https://music.163.com/#/artist?id=12554858"><img class="ref" src="../assets/wyy.png"></a>
         </div>
