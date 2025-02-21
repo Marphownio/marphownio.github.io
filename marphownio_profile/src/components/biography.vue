@@ -29,7 +29,7 @@ import essay from './essay.vue'
             </div>
         </div>
         <div class="one_col">
-            <div class="title2">News<router-link to="/news" class="title_ref" >&nbsp;&nbsp; >> More Details</router-link></div>
+            <div class="title2">News<router-link to="/news" class="title_ref" >&nbsp;&nbsp; >> More</router-link></div>
             <div class="content">
                 <!-- <list_item class="list_item" msg="Start master's studies." icon_type="4"/>
                 <list_item class="list_item" msg="2024/09, Shanghai, China" icon_type="0"/>-->

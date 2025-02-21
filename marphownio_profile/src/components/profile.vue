@@ -1,7 +1,7 @@
 <template>
     <div id="profile">
         <div>
-            <img id="my_avatar" src="../assets/1.jpg" />
+            <img id="my_avatar" src="https://wx2.sinaimg.cn/mw2000/006uUfRagy1hysow01xq1j30u00u0wgy.jpg" />
         </div>
         <div id="name">Wuyuao Mai</div>
         <div class="lab">Master Student<br></div>

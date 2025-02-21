@@ -9,25 +9,63 @@
         <div class="post-header">
         <span>@{{ post.time }}, {{ post.city }}, {{ post.country }}</span>
         </div>
-        <p class="post-text">{{ post.content }}</p>
+        <p class="post-text" v-html="post.content"></p>
+        <div v-if="post.image_urls.length==1">
+          <el-image class="images1" :src="post.image_urls[0]" :fit="fit" lazy/>
+        </div>
+        <div v-else-if="post.image_urls.length==2">
+          <div>
+            <el-image class="images2img" :src="post.image_urls[0]" :fit="fit" lazy/>
+            <el-image class="images2img" :src="post.image_urls[1]" :fit="fit" lazy/>
+          </div>
+          </div>
+          <div class="images4" v-else-if="post.image_urls.length==3">
+          <div>
+            <el-image class="images4img" :src="post.image_urls[0]" :fit="fit" lazy/>
+            <el-image class="images4img" :src="post.image_urls[1]" :fit="fit" lazy/>
+          </div>
+          <div>
+            <el-image class="images4img" :src="post.image_urls[2]" :fit="fit" lazy/>
+            <!-- <el-image class="images4img" :src="post.image_urls[3]" :fit="fit" lazy/> -->
+          </div>
+        </div>
+        <div class="images4" v-else-if="post.image_urls.length==4">
+          <div>
+            <el-image class="images4img" :src="post.image_urls[0]" :fit="fit" lazy/>
+            <el-image class="images4img" :src="post.image_urls[1]" :fit="fit" lazy/>
+          </div>
+          <div>
+            <el-image class="images4img" :src="post.image_urls[2]" :fit="fit" lazy/>
+            <el-image class="images4img" :src="post.image_urls[3]" :fit="fit" lazy/>
+          </div>
+        </div>
         
+
       </div>
     </div>
   </template>
   
   <script setup>
-  import { reactive } from 'vue';
+import { defineProps } from 'vue';
+
+
+const post = defineProps({
+  avatar: String,
+  city: String,
+  country: String,
+  time: String,
+  content: String,
+  image_urls: Array,
+});
   
-  const post = reactive({
-    avatar: 'https://i.pravatar.cc/150?img=3',
-    city: 'Xichang',
-    country: 'China',
-    time: '2025/02/01',
-    content: 'Had a wonderful Spring Festival.',
-    likes: 10,
-    comments: 5,
-    retweets: 2
-  });
+  // const post = reactive({
+  //   avatar: 'https://i.pravatar.cc/150?img=3',
+  //   city: 'Xichang',
+  //   country: 'China',
+  //   time: '2025/01/19',
+  //   content: 'Had a wonderful Spring Festival in Xichang, China. I saw a little girl running through the fields and couldn’t resist capturing the moment in a photograph.',
+  //   image_urls: ["https://wx2.sinaimg.cn/mw2000/006uUfRagy1hyslpz3cjoj32pn216kjn.jpg"],
+  // });
   
   const likePost = () => {
     post.likes++;
@@ -35,6 +73,14 @@
   </script>
   
   <style scoped>
+  .images2img{
+    max-width: 40%;
+    margin: 0.02rem;
+  }
+  .images4img{
+    max-width: 40%;
+    margin: 0.02rem;
+  }
   .post-container {
     max-width: 95%;
     margin: 0 auto;
@@ -60,12 +106,17 @@
     
   }
   .post-header {
-    font-size: 0.1rem;
+    font-size: 0.14rem;
     font-weight: 500;
     font-style:italic;
   }
   .post-text{
+    line-height: 0.15rem;
     color: #F5EFE7;
+    font-size: 0.11rem;
+  }
+  .images1{
+    width: 80%;
   }
   </style>
   
