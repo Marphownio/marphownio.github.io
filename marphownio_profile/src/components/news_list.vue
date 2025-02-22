@@ -30,7 +30,7 @@ const post_details = reactive([
     image_urls: ["/images/2.jpg"],
   },
   {
-    city: 'Bejing',
+    city: 'Beijing',
     country: 'China',
     time: '2024/12/22',
     content: 'Captured the beautiful palace architecture, along with the deep blue sky, in winter Beijing.',
