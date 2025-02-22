@@ -11,7 +11,7 @@
         </div>
         <div class="items">
             <button class="subitems">
-                <router-link class="subitemsa" :to="{ path: props.pdf_url  }" target="_blank">
+                <router-link class="subitemsa" :to="{ path: '/pdf', query: { name: props.pdf_url } }" target="_blank">
                 PDF
                 </router-link>
             </button>

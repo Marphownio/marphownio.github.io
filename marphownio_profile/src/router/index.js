@@ -3,6 +3,7 @@ import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router
 // 导入你的组件
 import Home from '../views/Home.vue'
 import News from '../views/News.vue'
+import PdfViewer from '@/views/PdfViewer.vue'
 
 const routes = [
   {
@@ -14,6 +15,11 @@ const routes = [
     path: '/news',
     name: 'news',
     component: News
+  },
+  {
+    path: '/pdf',
+    name: 'pdf',
+    component: PdfViewer
   },
 ]
 

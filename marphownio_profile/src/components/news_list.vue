@@ -25,6 +25,13 @@ const post_details = reactive([
   {
     city: 'Xichang',
     country: 'China',
+    time: '2025/01/20',
+    content: 'We are thrilled that our paper, <i>You Can\'t Eat Your Cake and Have It Too: The Performance Degradation of LLMs with Jailbreak Defense</i>, has been accepted as an oral presentation at the CCF-A conference <i>WWW\'25</i> ! This is my first time writing as the first author, and I sincerely appreciate the guidance of Professor Geng Hong and PhD student Pei Chen, as well as the support from all the teachers throughout the finalization process. Looking forward to meeting you in Sydney, Australia, this May.',
+    image_urls: ["/images/13.jpg"],
+  },
+  {
+    city: 'Xichang',
+    country: 'China',
     time: '2025/01/19',
     content: 'Had a wonderful Spring Festival in Xichang, China. I saw a little girl running through the fields and couldn’t resist capturing the moment in a photograph.',
     image_urls: ["/images/2.jpg"],

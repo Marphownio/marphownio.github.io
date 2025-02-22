@@ -51,7 +51,7 @@ import essay from './essay.vue'
                     year="2025"
                     authors="<b class='tuchu'>Wuyuao Mai*</b>, Geng Hong*, Pei Chen, Xudong Pan, Baojun Liu, Yuan Zhang, Haixin Duan, Min Yang"
                     conference="The Web Conference 2025 (WWW'25, CCF-A)"
-                    pdf_url="/pdfs/www25_usebench.pdf"
+                    pdf_url="www25_usebench.pdf"
                     code_url="https://github.com/Marphownio/USEBench"
                     BibTex="@inproceedings{mai2025usebench,</br>&nbsp;&nbsp;&nbsp;&nbsp;
                     author    = {Wuyuao Mai and Geng Hong and Pei Chen and Xudong Pan and Baojun Liu and Yuan Zhang and Haixin Duan and Min Yang},</br>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -70,7 +70,7 @@ import essay from './essay.vue'
                     year="2024"
                     authors="Mengying Wu*, Geng Hong*, <b class='tuchu'>Wuyuao Mai</b>, Xinyi Wu, Lei Zhang, Yingyuan Pu, Huajun Chai, Lingyun Ying, Haixin Duan, and Min Yang"
                     conference="The 47th International Conference on Software Engineering (IEEE/ACM ICSE'25, CCF-A)"
-                    pdf_url="/pdfs/icse25_repseo.pdf"
+                    pdf_url="icse25_repseo.pdf"
                     code_url="https://github.com/Marphownio/RepSEO_Classifier"
                     BibTex="@inproceedings{wu2025seo,</br>&nbsp;&nbsp;&nbsp;&nbsp;
                     author    = {Mengying Wu and Geng Hong and Wuyuao Mai and Xinyi Wu and Lei Zhang and Yingyuan Pu and Huajun Chai and Lingyun Ying and Haixin Duan and Min Yang},</br>&nbsp;&nbsp;&nbsp;&nbsp;

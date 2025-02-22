@@ -74,11 +74,11 @@ const post = defineProps({
   
   <style scoped>
   .images2img{
-    max-width: 40%;
+    max-width: 35%;
     margin: 0.02rem;
   }
   .images4img{
-    max-width: 40%;
+    max-width: 35%;
     margin: 0.02rem;
   }
   .post-container {
@@ -116,7 +116,7 @@ const post = defineProps({
     font-size: 0.11rem;
   }
   .images1{
-    width: 80%;
+    width: 70%;
   }
   </style>
   
