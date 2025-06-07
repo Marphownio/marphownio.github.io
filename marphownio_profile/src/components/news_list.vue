@@ -23,6 +23,13 @@ import { reactive } from 'vue';
 
 const post_details = reactive([
   {
+    city: 'Sydney',
+    country: 'Australia',
+    time: '2025/04/30',
+    content: 'Very happy to share our paper, <i>You Can\'t Eat Your Cake and Have It Too: The Performance Degradation of LLMs with Jailbreak Defense</i>, at ICC Sydney and had a great exchange with researchers from around the world!',
+    image_urls: ["/images/14.jpg"],
+  },
+  {
     city: 'Xichang',
     country: 'China',
     time: '2025/01/20',
