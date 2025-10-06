@@ -1,7 +1,7 @@
 <template>
     <div id="profile">
         <div>
-            <img id="my_avatar" src="/images/0.jpg" />
+            <img id="my_avatar" src="/images/0.jpeg" />
         </div>
         <div id="name">Wuyuao Mai</div>
         <div class="lab">Master Student<br></div>
