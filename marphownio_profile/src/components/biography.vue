@@ -153,14 +153,14 @@ a{
 }
 .title1{
     font-weight: 600;
-    font-size: 0.2rem;
+    font-size: 0.17rem;
     margin-bottom: 0.1rem;
     margin-top: 0.1rem;
     color: #F5EFE7;
 }
 .title2{
     font-weight: 600;
-    font-size: 0.15rem;
+    font-size: 0.13rem;
     margin-bottom: 0.08rem;
     margin-top: 0.08rem;
     color: #F5EFE7;

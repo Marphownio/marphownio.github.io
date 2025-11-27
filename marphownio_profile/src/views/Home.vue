@@ -86,6 +86,7 @@ import my_biography from '../components/biography.vue'
   align-items: center;
   height : 35%;
   padding-bottom : 3%;
+  padding-top: 3%;
 
   /* background-color: #d0d3d6; */
 }

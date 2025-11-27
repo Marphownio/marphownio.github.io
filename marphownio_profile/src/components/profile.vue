@@ -104,15 +104,15 @@ a{
     font-size: 0.11rem;
 }
 #name{
-    font-size: 0.18rem;
+    font-size: 0.15rem;
     font-weight: 800;
-    margin-top: 0.05rem;
-    margin-bottom: 0.08rem;
+    margin-top: 0rem;
+    margin-bottom: 0.05rem;
     color: #F5EFE7;
 }
 #my_avatar{
-    width:0.85rem;
-	height:0.85rem;
+    width:0.75rem;
+	height:0.75rem;
     position: relative;
     border-radius:50%;
 }
@@ -143,7 +143,7 @@ a{
     justify-content: space-around;
     align-items:center;
     font-family: Georgia;
-    margin-bottom:0.2rem;
+    margin-bottom:0.25rem;
 }
 #name{
     font-size: 0.15rem;
