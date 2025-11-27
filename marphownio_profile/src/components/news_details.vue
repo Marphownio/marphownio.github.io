@@ -118,5 +118,16 @@ const post = defineProps({
   .images1{
     width: 70%;
   }
+
+  @media (max-width: 850px) {
+  .post-container{
+    width:90%;
+  }
+  .post-header {
+    font-size: 0.13rem;
+    font-weight: 500;
+    font-style:italic;
+  }
+  }
   </style>
   

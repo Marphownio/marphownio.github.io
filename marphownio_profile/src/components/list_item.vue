@@ -23,19 +23,21 @@ const props = defineProps({
     display: flex;
     flex-direction: row;
     justify-content: start;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
+    line-height: 0.17rem;
+    margin-top:0.02rem;
 }
 
 .date{
     opacity: 0.7;
     font-size: 80%;
     margin-top: -0.08rem;
-    line-height: 0.17rem;
-    height: 0.17rem;
+    line-height: 0.13rem;
+    height: 0.13rem;
 }
 .list_head{
     filter: invert(50%);
-    height: 80%;
+    height: 0.17rem;
 }
 </style>

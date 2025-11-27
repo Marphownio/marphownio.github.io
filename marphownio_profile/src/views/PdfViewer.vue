@@ -25,7 +25,6 @@ onMounted(() => {
 
 <style scoped>
 .pdf_viewer{
-  background-color: aqua;
   position: absolute;
   top: 0;
   padding: 0;

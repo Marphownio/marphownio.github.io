@@ -121,10 +121,6 @@ a{
     font-style: italic;
     margin-top: -0.07rem;
 }
-.list_head{
-    filter: invert(50%);
-    height: 80%;
-}
 .items{
     margin-top: 0.05rem;
     display: flex;

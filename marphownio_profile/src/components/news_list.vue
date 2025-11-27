@@ -30,30 +30,30 @@ const post_details = reactive([
     image_urls: ["/images/14.jpg"],
   },
   {
-    city: 'Xichang',
+    city: 'Shanghai',
     country: 'China',
     time: '2025/01/20',
     content: 'We are thrilled that our paper, <i>You Can\'t Eat Your Cake and Have It Too: The Performance Degradation of LLMs with Jailbreak Defense</i>, has been accepted as an oral presentation at the CCF-A conference <i>WWW\'25</i> ! This is my first time writing as the first author, and I sincerely appreciate the guidance of Professor Geng Hong and PhD student Pei Chen, as well as the support from all the teachers throughout the finalization process. Looking forward to meeting you in Sydney, Australia, this May.',
     image_urls: ["/images/13.jpg"],
   },
-  {
-    city: 'Xichang',
-    country: 'China',
-    time: '2025/01/19',
-    content: 'Had a wonderful Spring Festival in Xichang, China. I saw a little girl running through the fields and couldn’t resist capturing the moment in a photograph.',
-    image_urls: ["/images/2.jpg"],
-  },
-  {
-    city: 'Beijing',
-    country: 'China',
-    time: '2024/12/22',
-    content: 'Captured the beautiful palace architecture, along with the deep blue sky, in winter Beijing.',
-    image_urls: [
-      "/images/3.jpg",
-      "/images/4.jpg",
+  // {
+  //   city: 'Xichang',
+  //   country: 'China',
+  //   time: '2025/01/19',
+  //   content: 'Had a wonderful Spring Festival in Xichang, China. I saw a little girl running through the fields and couldn’t resist capturing the moment in a photograph.',
+  //   image_urls: ["/images/2.jpg"],
+  // },
+  // {
+  //   city: 'Beijing',
+  //   country: 'China',
+  //   time: '2024/12/22',
+  //   content: 'Captured the beautiful palace architecture, along with the deep blue sky, in winter Beijing.',
+  //   image_urls: [
+  //     "/images/3.jpg",
+  //     "/images/4.jpg",
 
-      ],
-  },
+  //     ],
+  // },
   {
     city: 'Shanghai',
     country: 'China',
@@ -67,29 +67,29 @@ const post_details = reactive([
 
       ],
   },
-  {
-    city: 'Huangshan',
-    country: 'China',
-    time: '2024/06/09',
-    content: 'Immersed in the gentle charm of the Canal Towns in South of the Yangtze.',
-    image_urls: [
-      "/images/7.jpg",
+  // {
+  //   city: 'Huangshan',
+  //   country: 'China',
+  //   time: '2024/06/09',
+  //   content: 'Immersed in the gentle charm of the Canal Towns in South of the Yangtze.',
+  //   image_urls: [
+  //     "/images/7.jpg",
 
-      ],
-  },
-  {
-    city: 'Nanjing',
-    country: 'China',
-    time: '2024/03/29',
-    content: 'Admire the cherry blossoms at Xuanwu Lake and feel the arrival of spring.',
-    image_urls: [
-      "/images/8.jpg",
-      "/images/9.jpg",
-      "/images/10.jpg",
-      "/images/11.jpg",
+  //     ],
+  // },
+  // {
+  //   city: 'Nanjing',
+  //   country: 'China',
+  //   time: '2024/03/29',
+  //   content: 'Admire the cherry blossoms at Xuanwu Lake and feel the arrival of spring.',
+  //   image_urls: [
+  //     "/images/8.jpg",
+  //     "/images/9.jpg",
+  //     "/images/10.jpg",
+  //     "/images/11.jpg",
 
-      ]
-  },
+  //     ]
+  // },
   {
     city: 'Guiyang',
     country: 'China',
@@ -130,5 +130,21 @@ const post_details = reactive([
 }
 .news_detail{
   margin-bottom: 0.1rem;
+}
+
+@media (max-width: 850px) {
+#time_list{
+  width: 100%;
+
+}
+.title0{
+  margin-top: 0.1rem;
+  margin-left: 2%;
+}
+.title1{
+  margin-top: 0.1rem;
+  margin-left: 5%;
+  margin-bottom: 0.15rem;
+}
 }
 </style>

@@ -36,7 +36,7 @@ import my_biography from '../components/biography.vue'
   overflow-x:auto;
   overflow-y:auto;
   background-color: #213555;
-  min-width: 120px!important;
+  /* min-width: 120px!important; */
 }
 .flex_box{
   width: 100%;
@@ -45,6 +45,7 @@ import my_biography from '../components/biography.vue'
   flex-direction: row;
   justify-content: space-between;
 }
+
 .left{
   width:38%;
   display: flex;
@@ -65,6 +66,42 @@ import my_biography from '../components/biography.vue'
   /* background-color: #d0d3d6; */
   /* justify-content: center; */
   align-items: start;
+
+}
+
+
+@media (max-width: 850px) {
+.flex_box{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left{
+  width:100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height : 35%;
+  padding-bottom : 3%;
+
+  /* background-color: #d0d3d6; */
+}
+
+.right{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y:auto;
+  overflow-x:auto;
+  padding-top: 1%;
+  /* background-color: #d0d3d6; */
+  /* justify-content: center; */
+  align-items: center;
+
+}
 
 }
 </style>

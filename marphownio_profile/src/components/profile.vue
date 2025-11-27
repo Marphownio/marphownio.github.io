@@ -66,6 +66,7 @@ a{
     text-decoration:none;
     /* color: #37474f; */
     color: #D8C4B6;
+    height:0;
 }
 .ref{
     width: 100%;
@@ -89,5 +90,63 @@ a{
 	height:1.1rem;
     position: relative;
     border-radius:50%;
+}
+
+@media (max-width: 850px) {
+#school{
+    font-size: 0.12rem;
+    margin-bottom: 0.05rem;
+}
+#school{
+    font-size: 0.11rem;
+}
+.lab{
+    font-size: 0.11rem;
+}
+#name{
+    font-size: 0.18rem;
+    font-weight: 800;
+    margin-top: 0.05rem;
+    margin-bottom: 0.08rem;
+    color: #F5EFE7;
+}
+#my_avatar{
+    width:0.85rem;
+	height:0.85rem;
+    position: relative;
+    border-radius:50%;
+}
+#email2{
+    font-size: 0.095rem;
+    /* font-weight: 800; */
+    opacity: 0.75;
+    margin-bottom: -0.02rem;
+}
+.ref{
+    width: 100%;
+    text-align: center;
+}
+#refs{
+    width: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    filter: invert(50%);
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: -0.05rem;
+}
+#profile{
+    width: 70%;
+    color: #D8C4B6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    font-family: Georgia;
+    margin-bottom:0.2rem;
+}
+#name{
+    font-size: 0.15rem;
+}
 }
 </style>
