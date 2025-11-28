@@ -35,7 +35,7 @@ import essay from './essay.vue'
                 <!-- <list_item class="list_item" msg="Start master's studies." icon_type="4"/>
                 <list_item class="list_item" msg="2024/09, Shanghai, China" icon_type="0"/>-->
                 
-                <list_item class="list_item" msg="Attended the ACM WWW'25 and give oral presentation & poster." icon_type="4"/>
+                <list_item class="list_item" msg="Attended the ACM WWW'25 and gave oral presentation & poster." icon_type="4"/>
                 <mini_list_item class="mini_list_item" msg="2025/05, Sydney, Australia" icon_type="0"/>
                 <list_item class="list_item" msg="Honored to find our paper has been accepted as an oral presentation at WWW'25!" icon_type="4"/>
                 <mini_list_item class="mini_list_item" msg="2025/01, Shanghai, China" icon_type="0"/>
