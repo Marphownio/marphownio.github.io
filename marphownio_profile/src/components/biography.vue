@@ -94,6 +94,7 @@ import essay from './essay.vue'
     width: 85%;
     color: #D8C4B6;
     font-family: Georgia;
+    border: none;
 }
 .title1{
     font-weight: 600;
@@ -131,10 +132,9 @@ import essay from './essay.vue'
 .list_item{
     font-family: Georgia;
     font-size: 0.11rem;
-    line-height: 0.17rem;
+    line-height: 0.15rem;
 }
 .mini_list_item{
-    line-height: 0.01rem;
     font-size: 0.11rem;
 }
 
@@ -150,7 +150,6 @@ a{
     justify-content: center;
     align-items:flex-start;
 }
-}
 .title1{
     font-weight: 600;
     font-size: 0.17rem;
@@ -164,5 +163,15 @@ a{
     margin-bottom: 0.08rem;
     margin-top: 0.08rem;
     color: #F5EFE7;
+}
+.content{
+    width: 100%;
+    font-size: 0.11rem;
+    line-height:0.15rem;
+}
+#Biography{
+    width: 90%;
+    border-top: 0.01rem solid #D8C4B68D;
+    }
 }
 </style>

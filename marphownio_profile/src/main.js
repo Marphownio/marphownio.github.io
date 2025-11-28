@@ -4,6 +4,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import 'amfe-flexible'
 import router from './router'
+import './assets/global.css'  // 引入全局样式
 
 createApp(App).use(router).use(ElementPlus).mount('#app')
 

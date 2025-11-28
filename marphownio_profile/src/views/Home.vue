@@ -104,5 +104,11 @@ import my_biography from '../components/biography.vue'
 
 }
 
+#most_out {
+    position: static;   /* 改为正常流，不固定 */
+    height: auto;       /* 高度随内容 */
+    overflow: visible;  /* 内容超出自然滚动 */
+  }
+
 }
 </style>
